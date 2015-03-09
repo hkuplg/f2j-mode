@@ -34,7 +34,7 @@
     ("\\<\\(let\\|rec\\|and\\|type\\|module\\|end\\|then\\|else\\|if\\|case\\|new\\)\\>" . font-lock-keyword-face)
     ("\\<\\('?[[:upper:]][[:alnum:]_]*\\)\\>" . font-lock-type-face)
     ("=\\|:\\|->" . font-lock-function-name-face)
-    ("^[ \t]*--.*" . font-lock-comment-face)
+    ("^[ \t]*\\(--\\|#\\).*" . font-lock-comment-face)
     ))
 
 (defvar f2j-mode-map (make-sparse-keymap)
