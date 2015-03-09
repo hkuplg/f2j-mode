@@ -85,6 +85,7 @@
                            '((:command . "f2j")
                              (:exec . "%c -r %s %a")
                              (:compile-only . "%c %s")
+                             (:tempfile . nil)
                              (:description . "Compile f2j source file with f2j and execute"))
                            :mode 'f2j-mode)
      (define-key f2j-mode-map (kbd "C-c C-r") 'quickrun)))
